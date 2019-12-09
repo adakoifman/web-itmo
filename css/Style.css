@@ -1,0 +1,116 @@
+body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			line-height: 20px;
+		}
+		.container1 {
+		margin: 0 auto;
+		}
+		.container2 {
+		width: 1080px;
+		margin: 0 auto;
+		padding: 60px;
+		margin-left: 110px;
+    	}
+    	.container3 {
+		text-align: right;
+    	width: 1200px;	
+		margin: 0 auto;
+		padding: 0 10px;
+		}
+		.container4 {		
+		width: 980px;
+		padding-right: 170px;
+		padding-bottom: 4px;
+		padding-top: 4px;
+		margin: 0 auto;
+		}
+		.end {
+			background-color: black;
+			padding-top: 4px;
+		}
+		h1 {
+			font-size: 142px;
+			font-variant: small-caps;
+			color: white;
+			letter-spacing: 3px;
+			text-align: center;
+		}
+		h5 {
+			font-size: 250%;
+			color: white;
+			margin-bottom: 30px;
+		}
+		.comment {	
+			font-size: 23px;
+			color: white;
+			padding-top: 40px;
+			letter-spacing: 8px;
+		}
+		.text2 {
+			color: white;
+			letter-spacing: 2px;
+		}
+		.text3 {
+			color: white;
+		}
+		.button1 {		 
+		background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    	text-align: center;
+    	width: 210px;
+    	margin: 0px 650px 35px ;
+    	display: table;
+    	display: inline-block;
+    	font: inherit;
+    	height: 45px;
+		text-decoration: none;
+		}
+		.button2 {
+ 			position: relative;
+ 			color: white;
+			text-decoration: none;
+		}
+		.button1:hover {
+        background-color: #4169E1;
+      	}
+		.main-header {
+			padding-top: 230px;
+			padding-bottom: 265px;
+			background-image: url("bg.jpg");
+			background-position: center center;
+			background-size: 1545px;
+		}
+		.connect {
+			background-image: url("jumbotron_bg.jpg");
+			background-position: center center;
+			background-size: 100%;
+			min-height: 700px;
+		}
+      div.menu li
+      {
+        display: inline;
+        padding: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+		}
+		div.menu li:hover
+      {
+        background-color: #477af9;
+      }
+      
+    div.menu {
+    	background-color: black;
+        color: white;
+		padding: 27px;
+		padding-left: 150px;
+		width: auto;
+    }
+    .leftimg {
+    float:left; 
+    padding-top: 40px; 
+    padding-right: 130px;
+   }
