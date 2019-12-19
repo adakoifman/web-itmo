@@ -2,18 +2,22 @@
 <html>
 <head>
 <META CHARSET = "UTF-8" >
+<title>Task 1</title>
 </head>
-<body>
-<a name="beginning">сюда можно вернуться</a> <br>
+<body background="https://thumbs.gfycat.com/BetterSharpAgama-size_restricted.gif" vlink="pink" alink="light-blue" text="white">
+<a name="beginning"><b>И снова здравствуйте:)</b></a><br>
 
 <script type="text/javascript">
-let message = "Hello, salut!";
+let message = "Oh, hi Mark";
 document.write(message + "<br>");
+</script>
+<a href="#">Я тут сделал целое ничего, глянешь?;)</a><br>
+<script>
 let words = 1;
 let letters = 1;
 let i = 0;
 while(message[i++]){
-if(message[i] == " ")
+if(message[i] == " ") /*без учета пробелов в начале и конце строки*/
 words++;
 if((message[i] >= 'A' && message[i] <= 'Z')||(message[i] >= 'a' && message[i] <= 'z'))
 letters++;
@@ -28,18 +32,16 @@ document.write('Подстрока параметров: ', strGET,'<br>');
 let abc = 'Anchor';
 document.write('Якорь 1: ', abc.anchor('Mayahee'), '<br>');
 document.write('Якорь 2: ', abc.anchor('Mayahoo'), '<br>');
-document.write('<a href="https://rickrolled.fr/" target="_blank" id="RickRoll">( ͡° ͜ʖ ͡°) </a><br>');
-document.write('<img src="https://pbs.twimg.com/profile_images/837704946581635072/Mb3OmZJf_400x400.jpg" style="width: 20%" id="new">');
-document.write('<img src="https://pbs.twimg.com/profile_images/837704946581635072/Mb3OmZJf_400x400.jpg" style="width: 50%" id="new2">');
-document.write('<br>');
+document.write('<a href="https://www.youtube.com/watch?v=bhJfZ0PZJww" target="_blank" id="cat">Тут котик поёт. Если вылезет реклама, то извините:(</a><br>');
+document.write('<img src="https://i.ytimg.com/vi/Q7qm1YiPT24/maxresdefault.jpg" style="width: 30%" id="new" align="right">');
+document.write('<img src="https://cs10.pikabu.ru/post_img/2018/08/17/10/1534528223117644624.jpg" style="width: 50%" id="new2" align="right">');
 document.write('Кол-во анкоров: ', document.anchors.length,'<br>');
 document.write('Кол-во ссылок: ', document.links.length,'<br>');
-document.write('Вывод имеющегося анкора: ', document.anchors[0].innerHTML, '<br>')
+document.write('Вывод имеющегося анкора: ', document.anchors[0].innerHTML, '<br>');
 document.write('Кол-во картинок: ', document.images.length,'<br>');
 document.write('Ширина первой картинки: ', document.images[0].width,'<br>');
 document.write('Ширина самой широкой картинки: ', Math.max.apply(Math, Array.from(document.images).map(function(o) { return o.width; })), '<br>');
 </script>
-
 
 <form id="f1" name="f1">
 оу: <input type="text" name="fml"><br>
